@@ -18,6 +18,8 @@ window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.applicat
 window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.application/manual.pdf");
 window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.application/presentation.ppt");
 window.plugins.fileOpener.open("file:///sdcard/Android/data/com.example.application/image.jpg");
+
+window.plugins.fileOpener.open("resource://raw/manual.pdf");
 ```````
 
 After you run the command above, Android device will either open the file with proper external application installed on your device or ask you which application to use, if you haven't set before which application to use to open the specific type of file. What is great, when you exit the external app, Android will return to your application.
@@ -25,6 +27,9 @@ After you run the command above, Android device will either open the file with p
 
 RELEASE NOTES
 -------------
+Apr 7, 2014
+Open files from res folder
+
 Aug 1, 2013
 Update for Cordova-3.0
 
