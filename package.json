@@ -1,0 +1,21 @@
+{
+    "name": "com-phonegap-plugins-fileopener",
+    "version": "0.1.0",
+    "description": "Simple plugin which allows you to open popular files (PDF, WORD, EXCEL, JPG, GIF, POWERPOINT, VIDEOS, MUSIC etc.) stored locally on your device with Phonegap for Android.",
+    "cordova": {
+      "id": "com.phonegap.plugins.fileopener",
+      "platforms": [
+        "android",
+        "windows"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/3spin/FileOpener.git"
+    },
+    "keywords": [
+      "cordova-android",
+      "cordova-windows"
+    ],
+    "license": "MIT"
+  }
